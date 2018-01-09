@@ -1,4 +1,4 @@
-numero_ganador = 85
+numero_ganador = 35
 
 numero_usuario = int(input("Adivina el numero: "))
 
