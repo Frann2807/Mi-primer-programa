@@ -1,4 +1,4 @@
-print("Este es un juego simple. Se necesitan dos personas para jugarlo; Uno pone un numero y el tiene que intentar adivinarlo.")
+print("Este es un juego simple. Se necesitan dos personas para jugarlo; Uno pone un numero y el otro tiene que intentar adivinarlo.")
 
 jugador_numero_uno = input("Dime tu nombre: ")
 jugador_numero_dos = input("Dime tu nombre: ")
