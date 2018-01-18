@@ -1,10 +1,15 @@
 user_name = input("Hola! Soy Bot_Man. ¿Cual es tu nombre?: ")
 
-estado_usuario = input("¿Como estas {}?: ".format(user_name)).upper()
+estado_usuario = []
 
-if estado_usuario == "BIEN":
-    print("Me alegro {}!".format(user_name))
+estado_usuario.append(input("¿Como estas {}?".format(user_name)).upper())
 
-else:
-    estado_usuario == "MAL"
-    print("No te preocupes! Todo mejora con el tiempo!")
+
+if "BIEN" in estado_usuario:
+    print("¡Que buena suerte! ¡Hay que festejar")
+
+elif "MAL" in estado_usuario:
+    print("Mala suerte... Pero no te preocupes! Vamos por esas birras")
+
+elif "RE LOCO" in estado_usuario:
+    print("SLK ameo, No te encanute ese finoli!")
