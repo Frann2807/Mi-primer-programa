@@ -1,3 +1,6 @@
+"""
+Dada una lista de numeros, devolver el resultado de la multiplicacion de todos los números.
+"""
 lista_numeros = []
 
 user_numbers = ""

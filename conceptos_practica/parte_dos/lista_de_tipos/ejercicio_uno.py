@@ -1,3 +1,6 @@
+"""
+Dada una lista de strings, devolver una lista con el largo de cada string.
+"""
 lista_datos = []
 lista_largo_str = []
 str_user = ""
